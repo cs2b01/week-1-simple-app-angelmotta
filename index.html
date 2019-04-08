@@ -2,11 +2,23 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Title of the document</title>
+<title>Login Sample</title>
 </head>
 
 <body>
-Content of the document......
+<form id="form_id">
+	<div>
+		<label>Username</label>
+		<input type="text" placeholder="Ingresar Username" name="username" id="username" required>
+	</div>
+	<div>
+		<label>Password</label>
+		<input type="Password" placeholder="Ingresar Password" name="pass" id="pass" required>
+	</div>
+	<div>
+		<button onclick="login()" type="submit">Login</button>
+	</div>
+</form>
+<script src="submit.js" type="text/javascript"></script>
 </body>
-
 </html>
